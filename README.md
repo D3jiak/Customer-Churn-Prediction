@@ -1,20 +1,27 @@
-# Customer-Churn-Prediction
+# Customer Churn Prediction
 
-This project uses Python and machine learning to predict customer churn for a fictional bank.
+Predicting customer churn for a fictional bank using Python and machine learning.
 
-## 🔧 Tools Used
-- pandas, scikit-learn, matplotlib, seaborn
+## Overview
+Built a classification model to identify customers likely to churn, 
+achieving 87% accuracy and 91% ROC-AUC score on test data.
 
-## 📊 Key Skills Demonstrated
-- Data cleaning and pre-processing
-- Feature engineering from date columns
-- Model training and evaluation
-- Visualization and reporting
+## Tools & Libraries
+Python · pandas · scikit-learn · matplotlib · seaborn
 
-## 📈 Model Performance
-- Accuracy: 87%
-- ROC-AUC: 91%
+## What I Did
+- Cleaned and preprocessed raw customer data using pandas
+- Engineered features from date columns (tenure, recency)
+- Trained and evaluated a classification model using scikit-learn
+- Visualised top churn drivers for business interpretation
 
-## 📁 Files
-- `churn_model.ipynb`: Full notebook
-- `feature_importance.png`: Top drivers of churn
+## Results
+| Metric | Score |
+|--------|-------|
+| Accuracy | 87% |
+| ROC-AUC | 91% |
+
+## Key Finding
+Contract type, account tenure, and product holdings were the 
+strongest predictors of churn — customers on short-term contracts 
+with low product engagement churned at significantly higher rates.
