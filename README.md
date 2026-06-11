@@ -18,8 +18,8 @@ Python · pandas · scikit-learn · matplotlib · seaborn
 ## Results
 | Metric | Score |
 |--------|-------|
-| Accuracy | 87% |
-| ROC-AUC | 91% |
+| Accuracy | 79.18% |
+| ROC-AUC | 84% |
 
 ## Kay Visualisations
 Overall churn distribution (26.5% churn rate)
